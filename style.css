@@ -1,0 +1,275 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkorchid;
+}
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px purple;
+}
+
+header aside{
+    width: 45%;
+    padding: 5px 0px;
+    display: flex;
+    gap: center;
+    align-items: center;
+}
+
+#headerdireito{
+    justify-content: end;
+    gap: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(a8dbb5b0f25231eeed3f7117ba061d59.jpg);
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+ border: solid 10px darkred;
+}
+
+#banner2{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(7dc5c8efcca1cb6e04824e7d830d6ba7.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+    border: solid 10px crimson;
+}
+
+#banner3{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(0c8e5444f149664952e9ffb70eb8f125.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+    border: solid 10px darkmagenta;
+}
+
+#banner4{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(d720aea9c8efa589e991ab14143a7c5e.jpg);
+    background-position: top;
+    background-repeat:no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size:cover;
+    border: solid 10px gray;
+}
+
+#banner5{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(4050bdb510f8c1e3d3bdd7d3fb8aec3e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;         
+    border: solid 10px paleturquoise;
+}
+
+#banner6{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(c4a4926b4da058f3f1b5821662e426f1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+    border: solid 10px goldenrod;
+}
+
+#banner7{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(16ca515123ce9f65f83e7562110c0d0b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+    border: solid 10px firebrick;
+}
+
+#banner8{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(cb973c399b5fd04fac068e217bccd01a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+    border: solid 10px indigo;
+}
+
+#banner9{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(4e38ebf818cbe5e7a95d17e4b4850f71.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+    border: solid 10px maroon;
+}
+
+#banner10{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(9f32e92d0421054aa4488151b2d12895.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+    border: solid 10px darkcyan;
+}
+
+#banner11{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(magia\ solar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 10px darkgoldenrod;
+}
+
+#banner12{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(242036c03db27ed76055504e0401ff47.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 10px darkviolet;
+}
+#banner13{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(3259599d42fa0fd55771cc16ddfffa32.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 10px black;
+}
+
+#banner14{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(7e1d8ced7db52d2ac9a82f84a3a2912f.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 10px khaki;
+}
+
+#banner15{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(demonio\ primordial.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 10px crimson;
+}
+
+#banner16{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(pulo\ temporal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 10px hotpink;
+}
+
+#banner17{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(poder\ runatico.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 10px lawngreen;
+}
+
+#banner18{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(sol\ arcano.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 10px orangered;
+}
+#banner19{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(leviatã.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 10px darkblue;
+}
+
+
+
+
+
+
