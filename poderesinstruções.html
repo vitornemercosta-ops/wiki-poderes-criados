@@ -50,6 +50,22 @@
             background-color: olivedrab;
             font-size: 15pt
         }
+
+        .terceirotitulo{
+            border: 2px solid black;
+            font-family: serif;
+            color: purple ;
+            background-color: fuchsia;
+            font-size: 15px;
+        }
+
+        .quartotexto{
+            border: 2px solid black;
+            font-family: unset;
+            color: darkmagenta;
+            background-color: hotpink;
+            font-size: 15px;
+        }
     </style>
 </head>
 
@@ -79,68 +95,77 @@
         </select>
     </div>
 
- <form action="#">
+    <form action="#">
 
-    <div class="formassunto">
-<label for="idade">idade :</label>
-<input id="idade" type="number" min="10" max="18" step="1">
-    </div>
+        <div class="formassunto">
+            <label for="idade">idade :</label>
+            <input id="idade" type="number" min="10" max="18" step="1">
+        </div>
 
-    <div class="formassunto">
-        <!-- input nome -->
-<label for="nome">nome</label>
-<input id="nome" required type="text" placeholder="exemplo : yuri">
-    </div>
+        <div class="formassunto">
+            <!-- input nome -->
+            <label for="nome">nome</label>
+            <input id="nome" required type="text" placeholder="exemplo : yuri">
+        </div>
 
-    <div>
-        <button type="submit">enviar</button>
-        <button type="reset">resetar</button>
-        <button type="button" id="bemvindo">nome</button>
+        <div>
+            <button type="submit">enviar</button>
+            <button type="reset">resetar</button>
+            <button type="button" id="bemvindo">nome</button>
 
-        </form>
-
-        
-
-        <main>
-            <div id="banner">
-                <p class="titulo">poder de dragão</p>
-                <p class="texto"> ele pode aprender habilidades proibidas de cada clã de dragão e selar dragões em suas
-                    armas runicas mais
-                    se o
-                    portador de um clã de dragão proibido devorar um dragão mago ele podera aprender a expanção de
-                    dominio e
-                    aperfeiçoar sua magia. </p>
-                <p class="terceirotexto"> dragão de sangue, dragão arcanjo, dragão yin yang, dragão sombrio, dragão
-                    magma, dragão vampiro, dragão
-                    solar,
-                    dragão lunar, dragão leviatã, dragão venenoso, dragão radiação, dragão cosmico, dragão caotico,
-                    dragão
-                    alma,
-                    dragão alma sonica (você pode portar 15 dragões).</p>
-            </div>
-
-            <div id="banner2">
-                <p class="segundotitulo">poder de sangue</p>
-                <p class="segundotexto"> você pode manipuar sangue de humanos e sangue de animais e a cada atauqe que
-                    você usa vc vai usando mais
-                    fraco fica suas veias sanguineas mais se você ingerir um certa quantia de sangue você se recupera se
-                    vc
-                    for um feiticeiro de sangue vc consegue ensinar abilidades de snague proibidas para dragões
-                    ancestrais
-                    mais as consequencias são que você tem que fazer um pacto com auqle dragão para ´poder ensinar as
-                    habilidades de parceria com o clã kamo.
-                </p>
-            </div>
+    </form>
 
 
-        </main>
+
+    <main>
+        <div id="banner">
+            <p class="titulo">poder de dragão</p>
+            <p class="texto"> ele pode aprender habilidades proibidas de cada clã de dragão e selar dragões em suas
+                armas runicas mais
+                se o
+                portador de um clã de dragão proibido devorar um dragão mago ele podera aprender a expanção de
+                dominio e
+                aperfeiçoar sua magia. </p>
+            <p class="terceirotexto"> dragão de sangue, dragão arcanjo, dragão yin yang, dragão sombrio, dragão
+                magma, dragão vampiro, dragão
+                solar,
+                dragão lunar, dragão leviatã, dragão venenoso, dragão radiação, dragão cosmico, dragão caotico,
+                dragão
+                alma,
+                dragão alma sonica (você pode portar 15 dragões).</p>
+        </div>
+
+        <div id="banner2">
+            <p class="segundotitulo">poder de sangue</p>
+            <p class="segundotexto"> você pode manipuar sangue de humanos e sangue de animais e a cada atauqe que
+                você usa vc vai usando mais
+                fraco fica suas veias sanguineas mais se você ingerir um certa quantia de sangue você se recupera se
+                vc
+                for um feiticeiro de sangue vc consegue ensinar abilidades de snague proibidas para dragões
+                ancestrais
+                mais as consequencias são que você tem que fazer um pacto com auqle dragão para ´poder ensinar as
+                habilidades de parceria com o clã kamo.
+            </p>
+        </div>
+
+        <div id="banner3">
+            <p class="terceirotitulo">poder de portal</p>
+            <p class="quartotexto">você pode se teleportar por dimensões acabar selando outras pessoas, pode expandir os
+                ossos entre o radio forçando a pessoa a passar por um portal se vc fazer um pacto de sangue com o clã
+                dos dragões de portal vc pode ficar intangivel por 10 segundos e distorcer a realidade em volta para
+                ativar a intagibilidade mais se você for um mago grao mestre de portal vc pode imbuir sua arma com sua
+                energia de portal reversa</p>
+        </div>
+
+
+    </main>
 </body>
 
 </html>
 
 <script>
-            document.getElementById("bemvindo").addEventListener("click", () => {
-                nome = document.getElementById("nome").value 
-                alert ("seja bem vindo" + nome);
-            })
-        </script>
+    document.getElementById("bemvindo").addEventListener("click", () => {
+        nome = document.getElementById("nome").value
+        alert("seja bem vindo" + nome);
+    })
+</script>
