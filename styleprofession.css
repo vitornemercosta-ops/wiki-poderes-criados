@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+header aside{
+    width: 45%;
+    padding: 5px 0px;
+    display: flex;
+    gap: center;
+    align-items: center;
+}
+
+#headerdireito{
+    justify-content: end;
+    gap: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url();
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+}
+
+#banner2{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url();
+    background-position: top;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+}
+
+#banner3{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(dracomante.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+}
+
+#banner4{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(Ceifador\ do\ Véu\ em\ névoa\ escura\ \(1\).png);
+    background-position: center;
+    background-repeat:no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size:cover;
+}
+
+#banner5{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(Hemomante\ em\ meio\ ao\ sangue\ \(1\).png);
+    background-position: top;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;         
+}
+
+#banner6{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(O\ conjurador\ do\ portal\ brilhante\ \(1\).png);
+    background-position: top;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+}
+
+#banner7{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(Infernalista\ nas\ chamas\ do\ caos.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+}
+
+#banner8{
+    width: 70%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(Serafim\ Guardião\ em\ batalha\ celestial.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* bottom - embaixo */
+    /* top - emcima */
+    /* center - centro */
+    background-size: cover;
+}
